@@ -2,7 +2,7 @@
 body {
     margin: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: #303030;
+    background: url("backgraund.svg");
 }
 
 * {
@@ -94,4 +94,21 @@ body {
 .button-3:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.left-col {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.center-col {
+    border-radius: 0;
+
+}
+
+.right-col {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
 }
